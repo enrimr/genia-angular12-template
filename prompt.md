@@ -33,4 +33,12 @@ PROMPT 2:
 Dame el listado de componentes y clases que has creado. No te olvides de ninguna.
 
 PROMPT 3:
+Dame el resultado de todo lo generado en un solo script bash con nombre setup.sh para automatizar la creación de los componentes generados: Clases con su documentación, Tests, Estilos y Vistas. Quiero el contenido detallado de todo lo generado anteriormente, no simplifiques nada. Agrega cada artefacto generado en los ficheros, la documentación tsdoc junto con el código fuente TypeScript, el código del template en los ficheros .html y los tests en el spec.ts. Tienes que ser paciente. Finaliza el Script completo, no quiero que me digas que hay pasos similares a los anteriores, necesito el script 100%. 
+
+
+
+
+
+---------
+PROMPT 3 que no ha funcionado: no suele completar el script nunca.
 Dame el resultado de todo lo generado en un solo script bash con nombre setup.sh para automatizar la creación del proyecto Angular. Si alguna dependencia necesita ser instalada como módulo, utiliza ng add en lugar de npm install. Los ficheros de los componentes abstractos generalos a mano. Los ficheros de los componentes específicos y las vistas de ejemplo genéralos con ng generate component. Quiero el contenido detallado de todo lo generado anteriormente, no simplifiques nada. Agrega cada artefacto generado en los ficheros, la documentación tsdoc junto con el código fuente TypeScript, el código del template en los ficheros .html y los tests en el spec.ts. Tienes que ser paciente. Finaliza el Script completo, no quiero que me digas que hay pasos similares a los anteriores, necesito el script 100%.
