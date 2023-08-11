@@ -5,3 +5,5 @@ En lugar de usar la ruta ../graph.abstract usaban ./graph.abstract asumiendo que
 
 2.
 
+No añade las propiedades charType correctamente.
+Hay que poner public pieChartType: ChartType = 'pie'; en lugar de   public pieChartType: string = 'pie';

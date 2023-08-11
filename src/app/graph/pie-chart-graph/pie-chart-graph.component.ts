@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { GraphComponent } from '../graph.abstract';
+import { ChartType } from 'chart.js';
 
 /**
  * PieChartGraphComponent is a concrete implementation of GraphComponent. It displays data in the form of a pie chart.
@@ -22,7 +23,7 @@ import { GraphComponent } from '../graph.abstract';
 })
 export class PieChartGraphComponent extends GraphComponent implements OnInit {
   
-  public pieChartType: string = 'pie';
+  public pieChartType: ChartType = 'pie';
   
   ngOnInit(): void {
     this.renderGraph();

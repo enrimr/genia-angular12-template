@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { GraphComponent } from '../graph.abstract';
+import { ChartType } from 'chart.js';
+
 
 /**
  * HorizontalBarGraphComponent is a concrete implementation of GraphComponent. It displays data in the form of a horizontal bar chart.
@@ -22,7 +24,7 @@ import { GraphComponent } from '../graph.abstract';
 })
 export class HorizontalBarGraphComponent extends GraphComponent implements OnInit {
   
-  public barChartType: string = 'horizontalBar';
+  public barChartType: ChartType = 'horizontalBar';
   
   ngOnInit(): void {
     this.renderGraph();
