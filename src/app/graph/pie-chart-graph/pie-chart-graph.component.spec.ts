@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { PieChartGraphComponent } from './pie-chart-graph.component';
 
 describe('PieChartGraphComponent', () => {
@@ -21,5 +20,9 @@ describe('PieChartGraphComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('should have pie as chart type', () => {
+    expect(component.pieChartType).toEqual('pie');
   });
 });
