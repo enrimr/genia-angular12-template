@@ -1,9 +1,24 @@
 import { Component, Input } from '@angular/core';
-
 /**
+ * GraphComponent is an abstract class designed to serve as a base for specific graph implementations.
+ * 
+ * @remarks
+ * This class provides properties for data and configuration options, and an abstract method for rendering the graph.
+ * 
+ * @example
+ * ```typescript
+ * class CustomGraphComponent extends GraphComponent {
+ *   renderGraph(): void {
+ *     // Your custom rendering logic here
+ *   }
+ * }
+ * ```
+ * 
  * @abstract
- * Represents an abstract graph component.
+ * @property data - Represents the data to be used by the graph.
+ * @property options - Represents configuration options for the graph.
  */
+
 @Component({
   template: ''
 })

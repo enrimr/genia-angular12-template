@@ -2,8 +2,19 @@ import { Component, OnInit } from '@angular/core';
 import { GraphComponent } from '../graph.abstract';
 
 /**
- * Represents a horizontal bar graph component.
+ * HorizontalBarGraphComponent is a concrete implementation of GraphComponent. It displays data in the form of a horizontal bar chart.
+ * 
+ * @remarks
+ * This component utilizes ng2-charts and Chart.js to provide visualization.
+ * 
+ * @example
+ * ```html
+ * <app-horizontal-bar-graph [data]="yourDataArray" [options]="yourOptionsObject"></app-horizontal-bar-graph>
+ * ```
+ * 
+ * @property barChartType - Specifies the type of the chart (horizontalBar in this case).
  */
+
 @Component({
   selector: 'app-horizontal-bar-graph',
   templateUrl: './horizontal-bar-graph.component.html',

@@ -2,8 +2,19 @@ import { Component, OnInit } from '@angular/core';
 import { GraphComponent } from '../graph.abstract';
 
 /**
- * Represents a pie chart graph component.
+ * PieChartGraphComponent is a concrete implementation of GraphComponent. It displays data in the form of a pie chart.
+ * 
+ * @remarks
+ * This component utilizes ng2-charts and Chart.js to provide visualization.
+ * 
+ * @example
+ * ```html
+ * <app-pie-chart-graph [data]="yourDataArray" [options]="yourOptionsObject"></app-pie-chart-graph>
+ * ```
+ * 
+ * @property pieChartType - Specifies the type of the chart (pie in this case).
  */
+
 @Component({
   selector: 'app-pie-chart-graph',
   templateUrl: './pie-chart-graph.component.html',
