@@ -58,3 +58,10 @@ El código generado tiene cumplir con todas las reglas por defecto de SonarQube 
 El código generado tiene que cumplir con las mejores prácticas de programación tales como SOLID, DRY, etc
 Los componentes de Angular que generes deben ser reutilizables en otros proyectos.
 Cada componente debe tener sus propios tests.
+
+
+
+
+
+PROMPT GENERACION
+Dame el resultado de todo lo generado en un solo script bash con nombre setup.sh para automatizar la creación del proyecto Angular. Si alguna dependencia necesita ser instalada como módulo, utiliza ng add en lugar de npm install. Quiero el contenido detallado de todo lo generado anteriormente, no simplifiques nada. Tienes que ser paciente.
